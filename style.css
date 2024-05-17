@@ -1,0 +1,239 @@
+.dark{
+    background-color: black!important;
+}
+body{
+    font-family: 'Truculenta', 'Ballet', sans-serif ,cursive;
+    background-color: white;
+}
+.navbar-brand{
+    font-family: 'Ballet',cursive;
+    font-size: 50px!important;
+}
+.transi{
+    transition: 0.5s ease-in-out;
+}
+.navbar-brand:hover{
+    color: thistle!important;
+}
+.bg-dark{
+    background-color: rgb(37, 36, 36)!important;
+}
+.navbar-nav{
+    margin: 15px auto 0 auto!important;
+    gap: 30px;
+    font-size: 20px;
+}
+.dropdown-menu, .dropdown-item{
+    background-color: black!important;
+    color: white!important;
+}
+.dropdown-item:hover{
+    color: thistle!important;
+    padding-left: 30px;
+    background-color: rgb(49, 45, 45)!important;
+}
+.fa{
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 40%;
+   
+}
+.relative .fa:not(.fa-search):hover{
+    color: thistle;
+    transform: scale(1.2);
+}
+.cli{
+    color: thistle;
+    font-size: 12px;
+    background-color: black;
+    margin-top: 11px;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+.cli a{
+    text-decoration: none;
+    color: thistle;
+}
+.cli:hover a{
+    color: black;
+    font-weight: bold;
+}
+.cli:hover{
+    
+    background-color: thistle;
+}
+.relative{
+    position: relative;
+}
+.search{
+    position: absolute;
+    top: -24px;
+    left: -74px;
+}
+.search input{
+    width:180px;
+}
+.search button{
+    color: black;
+    background-color: thistle;
+    padding:0;
+    width: 30px;
+    height: 30px;
+}
+.absolute{
+    position: absolute;
+    top: -33px;
+    left: 180px;
+}
+.relative .fa-search:hover{
+    color: thistle;
+}
+.abtwo{
+    left: 0;
+    width: 185px;
+    top: -23px;
+}
+.carousel-item img{
+    opacity: 0.4;
+}
+.caro{
+    margin-top: 30px;
+}
+.carousel-item {
+    height: 80vh;
+    position: relative;
+}
+.d-none{
+    position: absolute;
+    top: 35%;
+}
+.d-none h5{
+    position: relative;
+    display: block;
+    font-size: 60px;
+    font-family: 'Reggae One',cursive;
+}
+.d-none h5:hover{
+    color: thistle;
+}
+.d-none p{
+    font-size: 30px;
+    padding: auto 60px;
+}
+.d-none h5::after{
+    content: " ";
+    height: 3px;
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    top: 75px;
+    left: 0;
+    transform: scaleX(0);
+    transition: 0.3s ease-in-out;
+    transform-origin: left;
+}
+.d-none h5:hover::after{
+    transform: scaleX(1);
+    transform-origin: right;
+}
+.scroll .col-md-3{
+    text-align: center;
+    padding: 0;
+    transition: 0.4s ease-in-out;
+    width: 23%;
+    margin: auto auto;
+}
+.scroll .col-md-3:hover{
+    background-color: rgb(46, 43, 43);
+}
+.scroll img{
+    width: 100%;
+    margin-bottom: 15px;
+    height: 220px;
+}
+.scroll {
+    color: white;
+    padding-top: 50px;
+}
+.scroll h1{
+    font-family: 'Reggae One';
+    padding-bottom: 20px;
+}
+.scroll h3{
+    display: inline;
+    cursor: pointer;
+    position: relative;
+}
+.scroll h3::after{
+    content: " ";
+    height: 3px;
+    position:absolute;
+    width: 100%;
+    top: 35px;
+    left: 0;
+    background-color: thistle;
+    transform: scaleX(0);
+    transition: 0.5s ease-in-out;
+}
+.scroll h3:hover::after{
+    transform: scaleX(1);
+}
+.scroll h3:hover{
+    color: thistle;
+}
+.scroll p{
+    font-size: 15px;
+    margin-top: 10px;
+    color: rgb(114, 100, 100);
+    text-align: left;
+    padding: 0 15px;
+}
+.scroll span{
+    float: right;
+    padding-right: 30px;
+} 
+.scroll h1 span {
+    margin-top: -32px;
+    padding-top: 0!important;
+    text-align: center;
+}
+.scroll .col-md-3:hover p{
+    color: rgb(228, 175, 175);
+}
+.scroll a{
+    text-decoration: none;
+    font-family: 'Truculenta';
+    font-size: 25px;
+    color: thistle;
+    padding: 5px 10px ;
+}
+.scroll a i{
+    color: thistle;
+}
+.scroll h1 span:hover a,.scroll h1 span:hover a i{
+    color: white;
+}
+.scroll a:hover{
+    background-color: rgb(87, 80, 80);
+    border-radius: 30px;
+}
+.top{
+    position:absolute;
+    top: 6px;
+    left: -20px;
+    color: White;
+    padding: 1px 30px;
+    background-color: rgb(184, 15, 15);
+    z-index: 999;
+    transform: rotate(-40deg);
+    font-weight: 500;
+    transition: 0.5s ease-in-out;
+}
+.over{
+    overflow: hidden;
+}
+.over:hover .top{
+    background-color: rgb(240, 193, 193);
+    color: rgb(75, 58, 58);
+}
